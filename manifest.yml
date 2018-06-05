@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: happytriips-com-${random}
+  name: happytriips-com-${random}
+  memory: 64M
+  stack: cflinuxfs2
